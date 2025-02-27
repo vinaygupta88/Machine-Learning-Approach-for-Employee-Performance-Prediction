@@ -8,7 +8,7 @@ model = pickle.load(open('gwp.pkl', 'rb'))
 
 @app.route("/")
 def about():
-    return render_template('home.html')
+    return render_template('index.html')
 
 
 @app.route("/about")
